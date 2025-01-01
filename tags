@@ -1,0 +1,207 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+APIWalkClient	src/api/client.ts	/^export class APIWalkClient {$/;"	c
+AddTodo	src/components/AddTodo.tsx	/^export const AddTodo: React.FC = () => {$/;"	v
+AddTodo	src/components/todo/AddTodo.tsx	/^export const AddTodo: React.FC = () => {$/;"	v
+AddTodoRequest	src/api/types.ts	/^export interface AddTodoRequest {$/;"	i
+AddTodoResponse	src/api/types.ts	/^export interface AddTodoResponse {$/;"	i
+AddUserRequest	src/api/types.ts	/^export interface AddUserRequest {$/;"	i
+AddUserResponse	src/api/types.ts	/^export interface AddUserResponse {$/;"	i
+App	src/App.tsx	/^function App() {$/;"	f
+App	src/main.tsx	/^import App from '.\/App.tsx';$/;"	I
+Button	src/components/ui/Button.tsx	/^export const Button: React.FC<ButtonProps> = ({$/;"	v
+ButtonProps	src/components/ui/Button.tsx	/^interface ButtonProps {$/;"	i
+DeleteTodoResponse	src/api/types.ts	/^export interface DeleteTodoResponse {$/;"	i
+DeleteUserResponse	src/api/types.ts	/^export interface DeleteUserResponse {$/;"	i
+Home	src/pages/Home.tsx	/^export const Home: React.FC = () => {$/;"	v
+ListUserResponse	src/api/types.ts	/^export interface ListUserResponse {$/;"	i
+PageContainer	src/components/layout/PageContainer.tsx	/^export const PageContainer: React.FC<PageContainerProps> = ({ children, className = '' }) => {$/;"	v
+PageContainerProps	src/components/layout/PageContainer.tsx	/^interface PageContainerProps {$/;"	i
+PageHeader	src/components/layout/PageHeader.tsx	/^export const PageHeader: React.FC<PageHeaderProps> = ({ $/;"	v
+PageHeaderProps	src/components/layout/PageHeader.tsx	/^interface PageHeaderProps {$/;"	i
+React	src/App.tsx	/^import React from "react";$/;"	I
+React	src/components/AddTodo.tsx	/^import React, { useState } from 'react';$/;"	I
+React	src/components/TodoItem.tsx	/^import React, { useState } from 'react';$/;"	I
+React	src/components/TodoList.tsx	/^import React from 'react';$/;"	I
+React	src/components/layout/PageContainer.tsx	/^import React from 'react';$/;"	I
+React	src/components/layout/PageHeader.tsx	/^import React from 'react';$/;"	I
+React	src/components/todo/AddTodo.tsx	/^import React, { useState } from 'react';$/;"	I
+React	src/components/todo/TodoItem.tsx	/^import React from 'react';$/;"	I
+React	src/components/todo/TodoItemEdit.tsx	/^import React from 'react';$/;"	I
+React	src/components/todo/TodoList.tsx	/^import React from 'react';$/;"	I
+React	src/components/ui/Button.tsx	/^import React from 'react';$/;"	I
+React	src/context/TodoContext.tsx	/^import React, { createContext, useContext, useState, useCallback } from 'react';$/;"	I
+React	src/pages/Home.tsx	/^import React from 'react';$/;"	I
+React	src/pages/Todos.tsx	/^import React from 'react';$/;"	I
+Todo	src/api/types.ts	/^export interface Todo {$/;"	i
+Todo	src/types/todo.ts	/^export interface Todo {$/;"	i
+TodoContextType	src/context/TodoContext.tsx	/^interface TodoContextType {$/;"	i
+TodoItem	src/components/TodoItem.tsx	/^export const TodoItem: React.FC<TodoItemProps> = ({ todo }) => {$/;"	v
+TodoItem	src/components/todo/TodoItem.tsx	/^export const TodoItem: React.FC<TodoItemProps> = ({ todo }) => {$/;"	v
+TodoItemEdit	src/components/todo/TodoItemEdit.tsx	/^export const TodoItemEdit: React.FC<TodoItemEditProps> = ({ todo }) => {$/;"	v
+TodoItemEditProps	src/components/todo/TodoItemEdit.tsx	/^interface TodoItemEditProps {$/;"	i
+TodoItemProps	src/components/TodoItem.tsx	/^interface TodoItemProps {$/;"	i
+TodoItemProps	src/components/todo/TodoItem.tsx	/^interface TodoItemProps {$/;"	i
+TodoList	src/components/TodoList.tsx	/^export const TodoList: React.FC = () => {$/;"	v
+TodoList	src/components/todo/TodoList.tsx	/^export const TodoList: React.FC = () => {$/;"	v
+TodoProvider	src/context/TodoContext.tsx	/^export const TodoProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {$/;"	v
+Todos	src/pages/Todos.tsx	/^export const Todos: React.FC = () => {$/;"	v
+TodosResponse	src/api/types.ts	/^export interface TodosResponse {$/;"	i
+ToggleTodoResponse	src/api/types.ts	/^export interface ToggleTodoResponse {$/;"	i
+UpdateLastLoginResponse	src/api/types.ts	/^export interface UpdateLastLoginResponse {$/;"	i
+UpdateTodoRequest	src/api/types.ts	/^export interface UpdateTodoRequest {$/;"	i
+UpdateTodoResponse	src/api/types.ts	/^export interface UpdateTodoResponse {$/;"	i
+User	src/api/types.ts	/^export interface User {$/;"	i
+UserRegister	src/pages/UserRegister.tsx	/^export const UserRegister = () => {$/;"	v
+addTodo	src/api/client.ts	/^  async addTodo(data: AddTodoRequest): Promise<AddTodoResponse> {$/;"	m
+addTodo	src/components/AddTodo.tsx	/^      addTodo(title);$/;"	m
+addTodo	src/components/todo/AddTodo.tsx	/^      addTodo(title);$/;"	m
+addTodo	src/context/TodoContext.tsx	/^  addTodo: (title: string) => void;$/;"	m
+addUser	src/api/client.ts	/^  async addUser(data: AddUserRequest): Promise<AddUserResponse> {$/;"	m
+apiKey	src/firebase.ts	/^  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,$/;"	m
+appId	src/firebase.ts	/^  appId: import.meta.env.VITE_FIREBASE_APP_ID,$/;"	m
+auth	src/firebase.ts	/^export const auth = getAuth(app);$/;"	v
+authDomain	src/firebase.ts	/^  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,$/;"	m
+baseUrl	src/api/client.ts	/^    baseUrl: string = "https:\/\/apiwalk.tacarz.workers.dev",$/;"	m
+baseUrl	src/api/client.ts	/^  private baseUrl: string;$/;"	m
+body	src/api/client.ts	/^      body: JSON.stringify(data),$/;"	m
+body	src/api/client.ts	/^      body: JSON.stringify({ email }),$/;"	m
+children	src/components/layout/PageContainer.tsx	/^  children: React.ReactNode;$/;"	m
+children	src/components/ui/Button.tsx	/^  children: React.ReactNode;$/;"	m
+completed	src/context/TodoContext.tsx	/^      completed: false,$/;"	m
+completed	src/types/todo.ts	/^  completed: boolean;$/;"	m
+constructor	src/api/client.ts	/^  constructor($/;"	m
+createRoot	src/main.tsx	/^createRoot(document.getElementById('root')!).render($/;"	m
+createdAt	src/context/TodoContext.tsx	/^      createdAt: new Date(),$/;"	m
+createdAt	src/types/todo.ts	/^  createdAt: Date;$/;"	m
+created_at	src/api/types.ts	/^  created_at: string;$/;"	m
+danger	src/components/ui/Button.tsx	/^    danger: 'text-white bg-red-500 hover:bg-red-600 focus:ring-red-500',$/;"	m
+data	src/api/client.ts	/^    data: UpdateTodoRequest$/;"	m
+data	src/api/types.ts	/^  data: Todo;$/;"	m
+data	src/api/types.ts	/^  data: Todo[];$/;"	m
+data	src/api/types.ts	/^  data: User[];$/;"	m
+data	src/api/types.ts	/^  data: {$/;"	m
+deleteTodo	src/api/client.ts	/^  async deleteTodo(id: string): Promise<DeleteTodoResponse> {$/;"	m
+deleteTodo	src/context/TodoContext.tsx	/^  deleteTodo: (id: string) => void;$/;"	m
+deleteUser	src/api/client.ts	/^  async deleteUser(email: string): Promise<DeleteUserResponse> {$/;"	m
+deleted_at	src/api/types.ts	/^    deleted_at: string;$/;"	m
+description	src/api/types.ts	/^  description: string | null;$/;"	m
+editTodo	src/components/TodoItem.tsx	/^      editTodo(todo.id, editedTitle);$/;"	m
+editTodo	src/context/TodoContext.tsx	/^  editTodo: (id: string, title: string) => void;$/;"	m
+editTodo	src/hooks/useTodoItemEdit.ts	/^      editTodo(todo.id, editedTitle);$/;"	m
+email	src/api/types.ts	/^    email: string;$/;"	m
+email	src/api/types.ts	/^  email: string;$/;"	m
+exclude	vite.config.ts	/^    exclude: ['lucide-react'],$/;"	m
+fetchWithAuth	src/api/client.ts	/^  private async fetchWithAuth(endpoint: string, options: RequestInit = {}) {$/;"	m
+ghost	src/components/ui/Button.tsx	/^    ghost: 'text-gray-600 hover:text-gray-800 hover:bg-gray-100',$/;"	m
+handleStopEdit	src/hooks/useTodoItemEdit.ts	/^      handleStopEdit();$/;"	m
+handleStopEdit	src/hooks/useTodoItemEdit.ts	/^    handleStopEdit();$/;"	m
+icon	src/components/ui/Button.tsx	/^  icon: Icon,$/;"	m
+id	src/api/client.ts	/^    id: string,$/;"	m
+id	src/api/types.ts	/^  id: number;$/;"	m
+id	src/context/TodoContext.tsx	/^      id: crypto.randomUUID(),$/;"	m
+id	src/types/todo.ts	/^  id: string;$/;"	m
+if	src/api/client.ts	/^    if (!response.ok) {$/;"	m
+if	src/components/AddTodo.tsx	/^    if (title.trim()) {$/;"	m
+if	src/components/TodoItem.tsx	/^    if (editedTitle.trim()) {$/;"	m
+if	src/components/TodoList.tsx	/^  if (todos.length === 0) {$/;"	m
+if	src/components/todo/AddTodo.tsx	/^    if (title.trim()) {$/;"	m
+if	src/components/todo/TodoItem.tsx	/^  if (isEditing) {$/;"	m
+if	src/components/todo/TodoList.tsx	/^  if (todos.length === 0) {$/;"	m
+if	src/components/ui/Button.tsx	/^  if (to) {$/;"	m
+if	src/context/TodoContext.tsx	/^  if (!context) {$/;"	m
+if	src/hooks/useTodoItemEdit.ts	/^    if (editedTitle.trim()) {$/;"	m
+if	src/pages/UserRegister.tsx	/^        if (error instanceof Error && !error.message.includes("404")) {$/;"	m
+if	src/pages/UserRegister.tsx	/^      if (error instanceof Error) {$/;"	m
+is_completed	src/api/types.ts	/^    is_completed: number;$/;"	m
+is_completed	src/api/types.ts	/^  is_completed: number;$/;"	m
+last_login_at	src/api/types.ts	/^  last_login_at: string | null;$/;"	m
+listTodos	src/api/client.ts	/^  async listTodos(): Promise<TodosResponse> {$/;"	m
+listUsers	src/api/client.ts	/^  async listUsers(): Promise<ListUserResponse> {$/;"	m
+message	src/api/types.ts	/^  message: string;$/;"	m
+messagingSenderId	src/firebase.ts	/^  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,$/;"	m
+method	src/api/client.ts	/^      method: "DELETE",$/;"	m
+method	src/api/client.ts	/^      method: "PATCH",$/;"	m
+method	src/api/client.ts	/^      method: "POST",$/;"	m
+method	src/api/client.ts	/^      method: "PUT",$/;"	m
+name	src/api/types.ts	/^  name: string;$/;"	m
+optimizeDeps	vite.config.ts	/^  optimizeDeps: {$/;"	m
+password	src/api/types.ts	/^  password: string;$/;"	m
+plugins	vite.config.ts	/^  plugins: [react()],$/;"	m
+primary	src/components/ui/Button.tsx	/^    primary: 'text-white bg-blue-500 hover:bg-blue-600 focus:ring-blue-500',$/;"	m
+priority	src/api/types.ts	/^  priority: number;$/;"	m
+projectId	src/firebase.ts	/^  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,$/;"	m
+react	vite.config.ts	/^import react from '@vitejs\/plugin-react';$/;"	I
+return	src/App.tsx	/^  return ($/;"	m
+return	src/components/AddTodo.tsx	/^  return ($/;"	m
+return	src/components/TodoItem.tsx	/^  return ($/;"	m
+return	src/components/TodoList.tsx	/^    return ($/;"	m
+return	src/components/TodoList.tsx	/^  return ($/;"	m
+return	src/components/layout/PageContainer.tsx	/^  return ($/;"	m
+return	src/components/layout/PageHeader.tsx	/^  return ($/;"	m
+return	src/components/todo/AddTodo.tsx	/^  return ($/;"	m
+return	src/components/todo/TodoItem.tsx	/^  return ($/;"	m
+return	src/components/todo/TodoItemEdit.tsx	/^  return ($/;"	m
+return	src/components/todo/TodoList.tsx	/^    return ($/;"	m
+return	src/components/todo/TodoList.tsx	/^  return ($/;"	m
+return	src/components/ui/Button.tsx	/^    return ($/;"	m
+return	src/components/ui/Button.tsx	/^  return ($/;"	m
+return	src/context/TodoContext.tsx	/^  return ($/;"	m
+return	src/pages/Home.tsx	/^  return ($/;"	m
+return	src/pages/Todos.tsx	/^  return ($/;"	m
+return	src/pages/UserRegister.tsx	/^  return ($/;"	m
+searchUser	src/api/client.ts	/^  async searchUser(email: string): Promise<User> {$/;"	m
+secondary	src/components/ui/Button.tsx	/^    secondary: 'text-gray-700 bg-gray-100 hover:bg-gray-200 focus:ring-gray-500',$/;"	m
+setEditedTitle	src/components/TodoItem.tsx	/^              setEditedTitle(todo.title);$/;"	m
+setEditedTitle	src/hooks/useTodoItemEdit.ts	/^    setEditedTitle(e.target.value);$/;"	m
+setEditedTitle	src/hooks/useTodoItemEdit.ts	/^    setEditedTitle(todo.title);$/;"	m
+setEmail	src/pages/UserRegister.tsx	/^      setEmail("");$/;"	m
+setIsEditing	src/components/TodoItem.tsx	/^              setIsEditing(false);$/;"	m
+setIsEditing	src/components/TodoItem.tsx	/^      setIsEditing(false);$/;"	m
+setIsLoading	src/pages/UserRegister.tsx	/^          setIsLoading(false);$/;"	m
+setIsLoading	src/pages/UserRegister.tsx	/^        setIsLoading(false);$/;"	m
+setIsLoading	src/pages/UserRegister.tsx	/^      setIsLoading(false);$/;"	m
+setIsLoading	src/pages/UserRegister.tsx	/^    setIsLoading(true);$/;"	m
+setMessage	src/pages/UserRegister.tsx	/^          setMessage(`ユーザー検索中にエラーが発生しました: ${error.message}`);$/;"	m
+setMessage	src/pages/UserRegister.tsx	/^        setMessage("このメールアドレスは既に登録されています");$/;"	m
+setMessage	src/pages/UserRegister.tsx	/^        setMessage("登録に失敗しました");$/;"	m
+setMessage	src/pages/UserRegister.tsx	/^        setMessage(`登録に失敗しました: ${error.message}`);$/;"	m
+setMessage	src/pages/UserRegister.tsx	/^      setMessage(`ユーザーを登録しました: ${response.message}`);$/;"	m
+setMessage	src/pages/UserRegister.tsx	/^    setMessage("");$/;"	m
+setName	src/pages/UserRegister.tsx	/^      setName("");$/;"	m
+setPassword	src/pages/UserRegister.tsx	/^      setPassword("");$/;"	m
+setTitle	src/components/AddTodo.tsx	/^      setTitle('');$/;"	m
+setTitle	src/components/todo/AddTodo.tsx	/^      setTitle('');$/;"	m
+setTodos	src/context/TodoContext.tsx	/^    setTodos((prev) => [...prev, newTodo]);$/;"	m
+setTodos	src/context/TodoContext.tsx	/^    setTodos((prev) => prev.filter((todo) => todo.id !== id));$/;"	m
+setTodos	src/context/TodoContext.tsx	/^    setTodos((prev) =>$/;"	m
+setToken	src/api/client.ts	/^  setToken(token: string) {$/;"	m
+status	src/api/client.ts	/^        status: response.status,$/;"	m
+status	src/api/types.ts	/^  status: string;$/;"	m
+status	src/pages/UserRegister.tsx	/^          status: error instanceof Error ? error.message : "Unknown error",$/;"	m
+statusText	src/api/client.ts	/^        statusText: response.statusText,$/;"	m
+storageBucket	src/firebase.ts	/^  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,$/;"	m
+success	src/api/types.ts	/^  success: boolean;$/;"	m
+title	src/api/types.ts	/^  title: string;$/;"	m
+title	src/components/layout/PageHeader.tsx	/^  title: string;$/;"	m
+title	src/types/todo.ts	/^  title: string;$/;"	m
+todo	src/components/TodoItem.tsx	/^  todo: Todo;$/;"	m
+todo	src/components/todo/TodoItem.tsx	/^  todo: Todo;$/;"	m
+todo	src/components/todo/TodoItemEdit.tsx	/^  todo: Todo;$/;"	m
+todos	src/context/TodoContext.tsx	/^  todos: Todo[];$/;"	m
+toggleTodo	src/context/TodoContext.tsx	/^  toggleTodo: (id: string) => void;$/;"	m
+toggleTodoComplete	src/api/client.ts	/^  async toggleTodoComplete(id: string): Promise<ToggleTodoResponse> {$/;"	m
+token	src/api/client.ts	/^    token: string = ""$/;"	m
+token	src/api/client.ts	/^  private token: string;$/;"	m
+type	src/api/client.ts	/^import type {$/;"	I
+updateLastLogin	src/api/client.ts	/^  async updateLastLogin(email: string): Promise<UpdateLastLoginResponse> {$/;"	m
+updateTodo	src/api/client.ts	/^  async updateTodo($/;"	m
+updated_at	src/api/types.ts	/^  updated_at: string;$/;"	m
+useTodo	src/context/TodoContext.tsx	/^export const useTodo = () => {$/;"	v
+useTodoItem	src/hooks/useTodoItem.ts	/^export const useTodoItem = (todo: Todo) => {$/;"	v
+useTodoItemEdit	src/hooks/useTodoItemEdit.ts	/^export const useTodoItemEdit = (todo: Todo) => {$/;"	v
+user_id	src/api/types.ts	/^  user_id: string;$/;"	m
